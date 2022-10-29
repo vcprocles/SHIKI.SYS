@@ -4,17 +4,12 @@
 \ \___  \  \ \  __ \  \ \ \  \ \  _"-. \ \ \   __ \ \___  \  \ \____ \  \ \___  \
  \/\_____\  \ \_\ \_\  \ \_\  \ \_\ \_\ \ \_\ /\_\ \/\_____\  \/\_____\  \/\_____\
   \/_____/   \/_/\/_/   \/_/   \/_/\/_/  \/_/ \/_/  \/_____/   \/_____/   \/_____/
-                                         __               _         _____  ___
-                                        / /  __ __  _  __(_)__ ____/ / _ \/ _ \
-                                       / _ \/ // / | |/ / / _ `/ _  / // / // /
-                                      /_.__/\_, /  |___/_/\_,_/\_,_/\___/\___/
-                                           /___/
-
 ------------------------------------ SHIKI.SYS ------------------------------------
 -------------- A theme to make Shikimori look like it's from DOS era --------------
 -----------------------------------------------------------------------------------
-------------------- GitHub: https://github.com/viad00/SHIKI.SYS -------------------
----------------------- Shikimori: https://shikimori.org/VIad ----------------------
+------------------- GitHub: https://github.com/vcprocles/SHIKI.SYS ----------------
+-------------------- Shikimori: https://shikimori.one/vc_procles ------------------
+-------------------- Fork of: https://github.com/viad00/SHIKI.SYS -----------------
 -----------------------------------------------------------------------------------
 */
 
@@ -84,6 +79,7 @@ h1, h2, h3, h4, header.head h1 {
 .l-page a {
   color: #fefe54 !important;
   text-decoration: none !important;
+  font-family: IBM_VGA8
 }
 
 .l-page a:hover,
@@ -126,7 +122,9 @@ h1, h2, h3, h4, header.head h1 {
     color: #ffffff !important;
     text-decoration: none;
 }
-
+.l-top_menu-v2 .submenu{
+  font-family: IBM_VGA8;
+}
 .menu-items>.entry:hover > a {
     color: #ffffff !important;
 }
@@ -153,11 +151,14 @@ h1, h2, h3, h4, header.head h1 {
   background: #00aaaa;
   padding: 20px 20px;
   margin: 20px 0 20px;
+  box-shadow: 5px 5px 0 #000000;
+  font-family: IBM_VGA8
 }
 
 .logo {
   background: none !important;
 }
+
 
 .logo:before {
   content: "SHIKIMORI";
@@ -167,8 +168,14 @@ h1, h2, h3, h4, header.head h1 {
 .logo:hover {
   color: #000084;
 }
-
-.b-main_search .
+.l-top_menu-v2{
+  font-size:22px;
+  font-family: IBM_VGA8;
+}
+.l-top_menu-v2 .menu-dropdown > span{
+  font-family: IBM_VGA8;
+}
+.b-main_search
 {
   background-color: #cfcfcf;
   border: 2px solid #000000;
@@ -183,7 +190,9 @@ h1, h2, h3, h4, header.head h1 {
   border: 2px solid #000000;
   box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
 }
-
+.menu-dropdown {
+  font-family: IBM_VGA8
+}
 .b-options-floated a {
   padding: 4px;
   color: #000000 !important;
