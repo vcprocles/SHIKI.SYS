@@ -170,6 +170,8 @@ h1, h2, h3, h4, header.head h1 {
 }
 .l-top_menu-v2{
   font-size:22px;
+  /* background-color:lime; for later*/
+  box-shadow: 0 0 0 5px black;
   font-family: IBM_VGA8;
 }
 .l-top_menu-v2 .menu-dropdown > span{
